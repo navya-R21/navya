@@ -36,7 +36,7 @@ Go to Google
     #to check whwther item is present in cart
     #Switch Window    ${first}
     #Wait Until Page Contains Element  ${select_prod}    timeout=20s
-    Click Element    #xpath://*[@id="container"]/div/div[1]/div[1]/div[2]/div[5]/div/div/a
+    #Click Element    #xpath://*[@id="container"]/div/div[1]/div[1]/div[2]/div[5]/div/div/a
   
 *** Test Cases ***
 Google Index
